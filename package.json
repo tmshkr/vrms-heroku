@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/tmshkr/vrms-heroku#readme",
   "devDependencies": {
-    "concurrently": "^7.2.1"
+    "concurrently": "^7.2.1",
+    "prisma": "^3.11.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.11.0"
   }
 }
