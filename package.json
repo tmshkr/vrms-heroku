@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd vrms-next && npm install && cd ../vrms-slackbot && npm install",
+    "postinstall": "cd vrms-next && npm install && cd ../vrms-slackbot && npm install",
     "build": "cd vrms-next && npm run build && cd ../vrms-slackbot && npm run build",
     "dev": "concurrently 'cd vrms-next && npm run dev' 'cd vrms-slackbot && npm run dev'",
     "start:web": "cd vrms-next && npm run start",
