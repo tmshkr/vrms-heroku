@@ -1,0 +1,3 @@
+[submodule "vrms-slackbot"]
+	path = vrms-slackbot
+	url = https://github.com/tmshkr/vrms-slackbot.git
