@@ -6,6 +6,8 @@
   "scripts": {
     "install": "cd vrms-next && npm install && cd ../vrms-slackbot && npm install",
     "dev": "concurrently 'cd vrms-next && npm run dev' 'cd vrms-slackbot && npm run dev'",
+    "start:web": "cd vrms-next && npm run start",
+    "start:worker": "cd vrms-slackbot && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
