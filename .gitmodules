@@ -1,3 +1,6 @@
 [submodule "vrms-slackbot"]
 	path = vrms-slackbot
 	url = https://github.com/tmshkr/vrms-slackbot.git
+[submodule "vrms-next"]
+	path = vrms-next
+	url = https://github.com/tmshkr/vrms-next.git
